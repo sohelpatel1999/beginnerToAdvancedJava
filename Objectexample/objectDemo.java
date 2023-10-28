@@ -1,6 +1,7 @@
+package Objectexample;
 public class objectDemo {
 
-    int sum = 123;
+    public int sum = 123;
     //sohel
 
     //we have created a static Method by Name demoStaticMethod

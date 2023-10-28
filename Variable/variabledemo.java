@@ -1,3 +1,7 @@
+package Variable;
+
+import Objectexample.objectDemo;
+
 public class variabledemo {
     // declaring the global variable
     int age;
@@ -6,6 +10,8 @@ public class variabledemo {
     int rollNo = 1;
 
     public static void main(String[] args) {
+
+
 
         // declare the local variable datatypes and name of the variable
         int demo;
@@ -24,6 +30,11 @@ public class variabledemo {
         variabledemo vd = new variabledemo();
         System.out.println(vd.age);
         System.out.println(vd.rollNo);
+
+        objectDemo ob = new objectDemo();
+        System.out.println(ob.sum);
+
+        
 
     }
     
