@@ -8,6 +8,7 @@ public class Assignmentdemo {
 
         // creating object of scanner class
         // by using object call the specific method related to that datatype
+        //
 
         Scanner neel = new Scanner(System.in);
 
