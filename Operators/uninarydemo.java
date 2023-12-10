@@ -10,8 +10,8 @@ public class uninarydemo {
         System.out.println(age++);   //24 increment by 1 = 25
         System.out.println(age);     // 25
 
-        System.out.println(age--);
-        System.out.println(age);
+        System.out.println(age--);  //25 decrement by 1 = 24
+        System.out.println(age); // 24
 
         System.out.println(++age); // 25
         System.out.println(age);   //25
