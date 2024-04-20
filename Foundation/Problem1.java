@@ -9,8 +9,7 @@ public class Problem1 {
                     count++;
                 }
             }
-
-            if (count == 2 && (i%2!=0)) {
+            if (count == 2 && (i%2!=0) ) {
                 System.out.println("ye number prime hai kyuki ye sirf do table mai hi divisible hore hai " + i);
             }
 

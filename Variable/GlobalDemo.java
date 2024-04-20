@@ -2,7 +2,7 @@ package Variable;
 
 public class GlobalDemo {
 
-    public int x;
+    public int x = 14;
 
     public int y = 110;
 

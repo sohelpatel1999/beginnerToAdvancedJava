@@ -6,9 +6,9 @@ public class Elseifladder {
 
     public static void main(String[] args) {
 
-        Scanner sc = new Scanner(System.in);
+        Scanner kuchbhi = new Scanner(System.in);
         System.out.println("Enter the marks to check grades : ");
-        int marks = sc.nextInt();
+        int marks = kuchbhi.nextInt();
 
         if (marks >= 90 && marks < 100) {
             System.out.println("A");
