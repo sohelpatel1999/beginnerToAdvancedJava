@@ -8,11 +8,12 @@ public class Excercise3_triangle {
         System.out.println("enter the number to Print triangle");
         int userInput = sc.nextInt();
 
-        for (int i = 1; i <= userInput; i++) {
-            for (int j = 1; j <= i; j++) {
+        for (int i = 1; i <= userInput; i++) { 
+
+            for (int j = 1; j <= i; j++) { // 13
                 System.out.print("*  ");
             }
-            System.out.println();
+            System.out.println(); // 16
         }
     }
 }
