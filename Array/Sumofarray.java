@@ -5,8 +5,9 @@ public class Sumofarray {
         System.out.println(answer);
     }
 
+    //method
     public static int sumOfArray(int[] arr) {
-        int sum = 0; // {10 +20+30+40} =100
+        int sum = 0; 
         for (int i = 0; i < arr.length; i++) { // time complexity O(n)
             sum = sum + arr[i];
         }

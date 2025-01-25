@@ -1,6 +1,8 @@
 /**
  * Arraydeclaration
  */
+
+ package Array;
 public class Arraydeclaration {
 
     public static void main(String[] args) {
@@ -11,8 +13,10 @@ public class Arraydeclaration {
         neel[1] = "neel";
         System.out.println(neel[1] + " after");
 
+        int neelvalue = 30;
+
         // type 2
-        String[] sohel = new String[10]; // {"less than 5", "less than 5 ", "less than 5", "less than 5", "less than 5",
+        String[] sohel = new String[8]; // {"less than 5", "less than 5 ", "less than 5", "less than 5", "less than 5",
                                          // "more than 5", "more than 5", "more than 5", "more than 5", "more than 5"
                                          // }
         sohel[0] = "Cummins";
@@ -22,9 +26,9 @@ public class Arraydeclaration {
         System.out.println(sohel.length);
         System.out.println(sohel[0]);
         System.out.println(sohel[3]);
-        // System.out.println(sohel[4]);
+        System.out.println(sohel[4]);
 
-        for (int i = 0; i < sohel.length; i++) {
+        for (int i = 0; i < sohel.length ; i++) {
             if (i < 5) {
                 sohel[i] = "less than 5";
             } else {

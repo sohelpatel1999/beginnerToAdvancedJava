@@ -48,7 +48,7 @@ public class Encryption {
     public static void main(String[] args) {
         try {
             // Define the plaintext to be encrypted
-            String plaintext = "EB3_1411_1709899057100";
+            String plaintext = "PP36_177667_1724310181";
             // Encrypt the plaintext and store the result
             String encrypted = encrypt(plaintext);
             // Print the encrypted text
